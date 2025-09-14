@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85815f73457baa248832493deb2d96a1, type: 3}
+  m_Name: Melee
+  m_EditorClassIdentifier: 
+  weaponID: 2
+  weaponName: "\uADFC\uC811 \uACF5\uACA9"
+  isget: 1
+  requiredResource: 0
+  description: "\uADFC\uC811 \uACF5\uACA9\n- \uC804\uBC29\uC5D0 \uCE7C\uC744 \uD718\uB458\uB7EC
+    5.0 \xD7 3.0 \uBC94\uC704 \uB0B4\uC758 \uC801\uC5D0\uAC8C 25\uC758 \uD53C\uD574\uB97C
+    \uC90D\uB2C8\uB2E4.\n"
+  icon: {fileID: -3956028084599682885, guid: 6fc335e41c0e07446b90e1292a7d0c85, type: 3}
+  type: 0
+  baseDamage: 25
+  attackSpeed: 0.25
+  qSkillData: {fileID: 11400000, guid: 21b5a43e11a4bc84fad5febea4d329c0, type: 2}
+  eSkillData: {fileID: 11400000, guid: da50ee5575345604096f64875787c9c0, type: 2}
+  accessoryData1: {fileID: 0}
+  accessoryData2: {fileID: 0}
+  attackSFX: {fileID: 8300000, guid: 4bf9c6b04cd63e948ac769d0b13516a5, type: 3}
+  hitboxWidth: 5
+  hitboxHeight: 3

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79d40a67dae89c43af7589f23af9515, type: 3}
+  m_Name: Melee_E_Range
+  m_EditorClassIdentifier: 
+  accessoryName: "\uC794\uC0C1\uACF5\uACA9 \uC0AC\uAC70\uB9AC \uAC15\uD654"
+  accessoryID: 7
+  compatibleWeapon: 0
+  slotType: 1
+  icon: {fileID: 3563882750920585883, guid: bb3b8799054e30f429ac0ccb8a301983, type: 3}
+  description: "\uC794\uC0C1\uACF5\uACA9 \uC0AC\uAC70\uB9AC \uAC15\uD654\n- \uAC15\uD654\uB41C
+    \uC794\uC0C1\uC740 1.5\uBC30\uC758 \uAC70\uB9AC\uAE4C\uC9C0 \uC804\uC9C4\uD558\uC5EC
+    \uC801\uC744 \uBCA0\uC5B4\uB0C5\uB2C8\uB2E4."
+  damageMult: 1
+  speedMult: 1
+  maxDistanceMult: 1.5
+  buffDurationMult: 1

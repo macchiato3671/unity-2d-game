@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0a97c5d4b27de47b6a7d2b5952aaa8, type: 3}
+  m_Name: Infection
+  m_EditorClassIdentifier: 
+  type: 3
+  skillName: Infection
+  isget: 1
+  duration: 10
+  icon: {fileID: 8464234050073833445, guid: 4f34313fb81447144874594984d3e2e4, type: 3}
+  effect: {fileID: 0}
+  description: "\uC801 \uD55C \uBA85\uC744 \uC120\uD0DD\uD574 \uAC10\uC5FC\uC2DC\uCF1C
+    \uC9C0\uC18D\uC801\uC73C\uB85C \uB370\uBBF8\uC9C0\uB97C \uC785\uD78C\uB2E4. \uAC10\uC5FC
+    \uB370\uBBF8\uC9C0\uB294 \uC8FC\uBCC0 \uC801\uC73C\uB85C \uD655\uC0B0\uD55C\uB2E4."
+  requiredResource: 0

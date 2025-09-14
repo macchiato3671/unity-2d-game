@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd8f88b98e80fd4baef316c3a267c46, type: 3}
+  m_Name: Laser
+  m_EditorClassIdentifier: 
+  weaponID: 1
+  weaponName: "\uB808\uC774\uC800"
+  isget: 1
+  requiredResource: 0
+  description: "\uB808\uC774\uC800\n- \uB9C8\uC6B0\uC2A4 \uBC29\uD5A5\uC73C\uB85C
+    7.0m \uAE38\uC774\uC758 \uB808\uC774\uC800\uB97C \uBC1C\uC0AC\uD569\uB2C8\uB2E4.\n-
+    \uB808\uC774\uC800\uB294 0.10\uCD08 \uB3D9\uC548 \uC720\uC9C0\uB418\uBA70, \uC774
+    \uC2DC\uAC04 \uB3D9\uC548 \uC801\uC5D0\uAC8C \uCD08\uB2F9 15\uC758 \uD53C\uD574\uB97C
+    \uC90D\uB2C8\uB2E4."
+  icon: {fileID: 4447013985815090947, guid: 777866ccd886f024d8020d1185adf27e, type: 3}
+  type: 2
+  baseDamage: 15
+  attackSpeed: 0.5
+  qSkillData: {fileID: 11400000, guid: 8954aa09376195e468fc37beef37758a, type: 2}
+  eSkillData: {fileID: 11400000, guid: 131ef9020a297294f91749ef54354d32, type: 2}
+  accessoryData1: {fileID: 0}
+  accessoryData2: {fileID: 0}
+  attackSFX: {fileID: 8300000, guid: b81169b289c748d4f96e293df58cb022, type: 3}
+  laserLength: 7
+  lifeTime: 0.1

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a2978cc8ea6c24893a23c29bc65fb3, type: 3}
+  m_Name: Gravity_Normal_Duration
+  m_EditorClassIdentifier: Assembly-CSharp::GravityNormalAccessory
+  accessoryName: "\uC911\uB825\uC790\uD0C4 \uC9C0\uC18D\uC2DC\uAC04 \uAC15\uD654"
+  accessoryID: 20
+  compatibleWeapon: 3
+  slotType: 2
+  icon: {fileID: 920625297531532950, guid: 75883fb960b079941a6b37fdfeffeedd, type: 3}
+  description: "\uC911\uB825\uC790\uD0C4 \uC9C0\uC18D\uC2DC\uAC04 \uAC15\uD654\n-
+    \uC911\uB825\uC7A5\uC774 \uB354 \uC624\uB798 \uC720\uC9C0\uB418\uC5B4, \uC801\uC744
+    \uC624\uB7AB\uB3D9\uC548 \uB04C\uC5B4\uB2F9\uAE41\uB2C8\uB2E4.\n- \uC9C0\uC18D
+    \uC2DC\uAC04\uC774 2\uBC30\uB85C \uB298\uC5B4\uB098 \uC801\uC744 \uB354\uC6B1
+    \uAC15\uD558\uAC8C \uC5B5\uC81C\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  pullRadiusMult: 1
+  pullForceMult: 1
+  durationMult: 2
+  totalTickDamageMult: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb3320137345374e9112e2fb7f857b5, type: 3}
+  m_Name: Melee_Q_Slow
+  m_EditorClassIdentifier: 
+  accessoryName: "EMP slash \uB514\uBC84\uD504 \uAC15\uD654"
+  accessoryID: 4
+  compatibleWeapon: 0
+  slotType: 0
+  icon: {fileID: 5364392536056257022, guid: 49f813ad0b546e14686c4246cf0ea5bd, type: 3}
+  description: "EMP slash \uB514\uBC84\uD504 \uAC15\uD654\n- EMP slash\uC758 \uAC10\uC18D
+    \uD6A8\uACFC\uAC00 20% \uB354 \uAC15\uB825\uD574\uC9C0\uACE0, \uAC10\uC18D \uC9C0\uC18D
+    \uC2DC\uAC04\uB3C4 2\uBC30\uB85C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  damageMult: 1
+  slowDurationMult: 2
+  slowAmountMult: 0.8
+  maxDistanceMult: 1

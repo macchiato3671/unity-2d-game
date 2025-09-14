@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a761eceff32e0541b9fe5b69d6daea8, type: 3}
+  m_Name: Laser_E_Duration
+  m_EditorClassIdentifier: Assembly-CSharp::LaserEAccessory
+  accessoryName: "\uB808\uC774\uC800 \uACF5\uC18D\uBC84\uD504 \uC9C0\uC18D\uC2DC\uAC04
+    \uAC15\uD654"
+  accessoryID: 11
+  compatibleWeapon: 2
+  slotType: 1
+  isget: 0
+  icon: {fileID: -2025797663493092821, guid: fe7fe3ce9b5309243a8f61d373151919, type: 3}
+  description: "\uB808\uC774\uC800 \uACF5\uC18D\uBC84\uD504 \uC9C0\uC18D\uC2DC\uAC04
+    \uAC15\uD654\n- \uC18D\uB3C4\uC758 \uD750\uB984\uC774 \uB354 \uAE38\uAC8C \uC720\uC9C0\uB429\uB2C8\uB2E4.\n-
+    \uB808\uC774\uC800 \uACF5\uC18D \uBC84\uD504\uAC00 2\uBC30 \uB354 \uC624\uB798
+    \uC9C0\uC18D\uB429\uB2C8\uB2E4."
+  attackSpeedRateMult: 1
+  buffDurationMult: 2

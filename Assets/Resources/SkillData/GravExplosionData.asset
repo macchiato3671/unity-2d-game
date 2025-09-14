@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37a497c50ca3024fa0c67d16666a9ef, type: 3}
+  m_Name: GravExplosionData
+  m_EditorClassIdentifier: 
+  skillName: "\uC911\uB825\uD3ED\uBC1C"
+  icon: {fileID: -308508369165074506, guid: 062b0e67ea177db4ea7e8520c3be557b, type: 3}
+  cooldown: 3
+  baseCooldown: 3
+  description: "\uC911\uB825\uD3ED\uBC1C\n- \uB9F5\uC5D0 \uC124\uCE58\uB41C \uC911\uB825\uC790\uD0C4\uC744
+    \uBAA8\uB450 \uAE30\uD3ED\uC2DC\uCF1C,\n  \uBC18\uACBD 2.0m \uB0B4\uC758 \uC801\uC5D0\uAC8C
+    \uAC01\uAC01 20\uC758 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4.\n- \uC5EC\uB7EC
+    \uAC1C\uC758 \uC911\uB825\uC790\uD0C4\uC774 \uC124\uCE58\uB418\uC5B4 \uC788\uB2E4\uBA74
+    \uB3D9\uC2DC\uC5D0 \uD3ED\uBC1C\uD569\uB2C8\uB2E4.\n- \uCFE8\uD0C0\uC784: 3.0\uCD08"
+  attackSFX: {fileID: 8300000, guid: 8d36654e57cd31647b7c244b2f93f998, type: 3}
+  explosionRadius: 2
+  explosionDamage: 20

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2445d52970977b43885f1881c9c2740, type: 3}
+  m_Name: Gravity_E_Laser
+  m_EditorClassIdentifier: Assembly-CSharp::GravityEAccessory
+  accessoryName: "\uAC15\uD654 \uB808\uC774\uC800 \uAC15\uD654"
+  accessoryID: 18
+  compatibleWeapon: 3
+  slotType: 1
+  isget: 0
+  icon: {fileID: 8607704582758015155, guid: ab31ef024ce2295449367be7bc30c8ee, type: 3}
+  description: "\uAC15\uD654 \uB808\uC774\uC800 \uAC15\uD654\n- \uAC15\uD654\uB41C
+    \uC5D0\uB108\uC9C0 \uCD9C\uB825\uC73C\uB85C \uB808\uC774\uC800\uAC00 \uB354 \uBA40\uB9AC,
+    \uB354 \uAC15\uD558\uAC8C \uBED7\uC5B4 \uB098\uAC11\uB2C8\uB2E4. \n- \uAC15\uD654
+    \uB808\uC774\uC800\uC758 \uC0AC\uAC70\uB9AC\uAC00 20%, \uD53C\uD574\uB7C9\uC774
+    25% \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  damageMult: 1.25
+  widthMult: 1
+  rangeMult: 1.2

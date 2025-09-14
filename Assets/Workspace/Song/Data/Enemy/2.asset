@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826e0860ad3398442969664b47b34ac1, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  description: "\uCC28\uC9D5\uD6C4 \uB3CC\uC9C4"
+  enemyID: 2
+  defaultSpeed: 2
+  chaseSpeed: 4
+  detectionRange: 8
+  attackPower: 1
+  maxHealth: 60
+  knockbackForce: 2
+  size: {x: 1.3, y: 1.3}
+  attackCooldown: 0
+  bulletSpeed: 0
+  firePoint: {x: 0, y: 0, z: 0}
+  animationController: {fileID: 22100000, guid: 7a1eed0ada1537e468e88b8f395812f4, type: 2}
+  colliderOffset: {x: 0, y: 0.35}
+  colliderSize: {x: 1.45, y: 0.7}
+  audioClips:
+  - {fileID: 8300000, guid: ee04c994f68700e4f9a7fa5fcf494188, type: 3}
+  - {fileID: 8300000, guid: 5f8878b1c07279948945dd37f46af396, type: 3}

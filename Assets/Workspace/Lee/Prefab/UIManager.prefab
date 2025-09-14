@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9219407529227045937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4072991953157870811}
+  - component: {fileID: 8947795438611987835}
+  - component: {fileID: 5240196791023155191}
+  - component: {fileID: 2414075165016460796}
+  - component: {fileID: 8108925076231097741}
+  - component: {fileID: 8215313299072667066}
+  - component: {fileID: 610890817671416337}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4072991953157870811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219407529227045937}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.632095, y: -77.40833, z: -1.8124436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8947795438611987835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219407529227045937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80f20b97b0bb9045b2fd73b86187211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipNameTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  equipDescriptionTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  equipImageUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentLevelTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  resourceBars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  updateButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  itemUIPanel: {fileID: 0}
+  equipManager: {fileID: 5240196791023155191}
+--- !u!114 &5240196791023155191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219407529227045937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5de1f449e768d42855175f060445f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipDatas:
+  - {fileID: 11400000, guid: 0d0769e1aac0b91449d0d39464d21cbf, type: 2}
+  - {fileID: 11400000, guid: a6f69ff5102ae8b44a910b93896563cd, type: 2}
+  - {fileID: 11400000, guid: def4d6fa57744f149b5e88d0ce311836, type: 2}
+  - {fileID: 11400000, guid: fbca33a991691564eb95c52f2ea98398, type: 2}
+  playerHealth: {fileID: 7880090760523236487, guid: cf979db7b815b1941b163a442d87f6de, type: 3}
+  playerMove: {fileID: 8600846083361603197, guid: cf979db7b815b1941b163a442d87f6de, type: 3}
+--- !u!114 &2414075165016460796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219407529227045937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b9b8c82d04fd4297ef056c925d2fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceText: {fileID: 0}
+--- !u!114 &8108925076231097741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219407529227045937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dca11b6294c47a41857d7ea06eccc62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemButtonPrefab: {fileID: 4584608011038589832, guid: c7c6027285bb8964f89c10a3189ad11a, type: 3}
+  itemListContainer: {fileID: 0}
+  itemNameText: {fileID: 0}
+  itemDescriptionText: {fileID: 0}
+  itemImage: {fileID: 2349184838216357276, guid: c7c6027285bb8964f89c10a3189ad11a, type: 3}
+  itemTypeText: {fileID: 0}
+  items:
+  - {fileID: 11400000, guid: cab546f70ad67eb40bad1309ef14804b, type: 2}
+  - {fileID: 11400000, guid: 3a5c58a86d0afed4ea4a3a18639a6adf, type: 2}
+  itemDetailPanel: {fileID: 0}
+  itemDetailImage: {fileID: 0}
+  itembuytext: {fileID: 0}
+  itembuybutton: {fileID: 0}
+  resourceUIManager: {fileID: 2414075165016460796}
+--- !u!114 &8215313299072667066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219407529227045937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197f3ad713415414f8e9c3d2aceec40b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allWeapons:
+  - {fileID: 11400000, guid: b486434b69ba6d545a1f95fd49e3e93b, type: 2}
+  - {fileID: 11400000, guid: 3fde1e753c340e04aa6d9c2dc65dfbcc, type: 2}
+  - {fileID: 11400000, guid: a020a25ebf444034e9f071a0dcc616c6, type: 2}
+  - {fileID: 11400000, guid: eb5e9973828e90a4d8ea7750faa85803, type: 2}
+  allHacks:
+  - {fileID: 11400000, guid: 4670bf745a2482f4989aa1c17cbca153, type: 2}
+  - {fileID: 11400000, guid: 3c8ca829622e52b40b486d3775f6b619, type: 2}
+  - {fileID: 11400000, guid: 2d5f2964f96fa954aa2861cf0d210ef6, type: 2}
+  - {fileID: 11400000, guid: ac3d2b3956376d0499248432bc56b24d, type: 2}
+  - {fileID: 11400000, guid: 61e05925a699bde4d829717e24d219d2, type: 2}
+  allAccessories: []
+  weaponSelectManager: {fileID: 610890817671416337}
+  gameManager: {fileID: 0}
+  primaryWeapon: {fileID: 0}
+  secondaryWeapon: {fileID: 0}
+  selectedHack: {fileID: 0}
+  equippedAccessories: []
+  selectedHackIcon: {fileID: 0}
+  accessoryIcons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  InventoryPanel: {fileID: 0}
+  weaponSprite: {fileID: 0}
+  weaponDescription: {fileID: 0}
+  detailPanel: {fileID: 0}
+  detailText: {fileID: 0}
+  detailImg: {fileID: 0}
+  weaponButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  hackSlotPrefab: {fileID: 8408713073265692296, guid: eb7b5ea2412c4b24480cc5bb090eac17, type: 3}
+  accessorySlotPrefab: {fileID: 8408713073265692296, guid: b9816969a75a0dc41a5582ad36a0a2aa, type: 3}
+  hackSlotParent: {fileID: 0}
+  accessorySlotParent: {fileID: 0}
+  hackSlots: []
+  accessorySlots: []
+  weaponCanChange: 1
+  can_open_inven: 1
+--- !u!114 &610890817671416337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219407529227045937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db9289f634dc2446ad674f5566567d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultWeapon1: {fileID: 11400000, guid: b486434b69ba6d545a1f95fd49e3e93b, type: 2}
+  defaultWeapon2: {fileID: 11400000, guid: 3fde1e753c340e04aa6d9c2dc65dfbcc, type: 2}
+  equippedWeapons:
+  - {fileID: 0}
+  - {fileID: 0}
+  generatedWeaponDescriptions:
+  - 
+  - 
+  generatedQSkillDescriptions:
+  - 
+  - 
+  generatedESkillDescriptions:
+  - 
+  - 

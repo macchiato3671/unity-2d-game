@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8d0064f5cdbe9488893c7ef06f473d, type: 3}
+  m_Name: Equip1
+  m_EditorClassIdentifier: 
+  equipID: 1
+  equipName: "\uAD00\uC808 \uD30C\uCE20"
+  equipDescription: "\uC5C5\uADF8\uB808\uC774\uB4DC \uD560 \uC218\uB85D \uC548\uB4DC\uB85C\uC774\uB4DC\uC758
+    \uC810\uD504 \uD30C\uC6CC\uAC00 \uC138\uC9C4\uB2E4."
+  equipImage: {fileID: 4905534584336946048, guid: 7683046cbcec61146919c38e6a3b0d8b, type: 3}
+  currentLevel: 1
+  requiredResource: 10

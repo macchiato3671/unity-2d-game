@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eed33475bcc0864ba58269a9509ac78, type: 3}
+  m_Name: BladeThrowData
+  m_EditorClassIdentifier: 
+  skillName: BladeThrow
+  icon: {fileID: 8716927860425181096, guid: 84de9d7e25f7d64448b9877a2d86118f, type: 3}
+  cooldown: 5
+  baseCooldown: 5
+  description: "BladeThrow\n- \uC804\uBC29 30\xB0 \uBC94\uC704\uB85C \uCE7C\uC744
+    \uB3D9\uC2DC\uC5D0 \uB358\uC9D1\uB2C8\uB2E4.\n- \uAC01 \uCE7C\uC740 \uC801\uC744
+    \uAD00\uD1B5\uD558\uBA70 10\uC758 \uD53C\uD574\uB97C \uC785\uD799\uB2C8\uB2E4.\n-
+    \uC0AC\uC6A9 \uC2DC \uB0A8\uC544 \uC788\uB294 \uCE7C \uC218\uB9CC\uD07C\uB9CC
+    \uB358\uC838\uC9C0\uBA70, \uC774\uD6C4 \uC2A4\uD0AC\uB85C \uD68C\uC218\uD574\uC57C
+    \uC7AC\uC0AC\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n- \uCFE8\uD0C0\uC784:
+    5.0\uCD08"
+  attackSFX: {fileID: 8300000, guid: 0a15cd396eb80194580de1a281da9fbc, type: 3}
+  spreadAngle: 30

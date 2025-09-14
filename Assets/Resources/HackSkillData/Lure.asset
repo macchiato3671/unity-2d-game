@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40d156f407f61dc498deec1b6569ecd8, type: 3}
+  m_Name: Lure
+  m_EditorClassIdentifier: 
+  type: 2
+  skillName: Lure
+  duration: 10
+  icon: {fileID: 4884972066526929132, guid: cfebb38410360384cb9f4f358facdd46, type: 3}
+  effect: {fileID: 0}
+  description: "\uC801 \uD55C \uBA85\uC744 \uC9C0\uC815\uD558\uC5EC \uAE30\uC808\uC2DC\uD0A8\uB2E4.
+    \uD574\uB2F9 \uC801 \uC8FC\uBCC0\uC73C\uB85C \uB2E4\uB978 \uC801\uC744 \uC720\uC778\uD55C\uB2E4."
+  requiredResource: 0

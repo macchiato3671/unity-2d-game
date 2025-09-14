@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c54da6518eda754fa004d0245b641ea, type: 3}
+  m_Name: LaserTrackingData
+  m_EditorClassIdentifier: 
+  skillName: "\uB808\uC774\uC800 \uCD94\uC801"
+  icon: {fileID: -913150820736747277, guid: 9797f7b0ff9d47a4bbae72a072523ad6, type: 3}
+  cooldown: 20
+  baseCooldown: 20
+  description: "\uB808\uC774\uC800 \uCD94\uC801\n- 10.0\uCD08 \uB3D9\uC548 \uBC1C\uC0AC\uD558\uB294
+    \uB808\uC774\uC800\uAC00 \uC801\uC744 \uC790\uB3D9\uC73C\uB85C \uCD94\uC801\uD569\uB2C8\uB2E4.\n-
+    \uCCAB \uC801\uC911 \uC9C0\uC810\uC744 \uAE30\uC900\uC73C\uB85C \uBC18\uACBD
+    5.0m \uB0B4\uC758 \uC801 2\uBA85\uC744 \uCD94\uAC00\uB85C \uAFF0\uB6AB\uC2B5\uB2C8\uB2E4.\n-
+    \uCFE8\uD0C0\uC784: 20.0\uCD08"
+  attackSFX: {fileID: 8300000, guid: 60cff957cac8c4d4b910b809ab4889a5, type: 3}
+  trackEnemyNum: 2
+  trackingRange: 5
+  buffDuration: 10

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83cc894f95636546bbec41632918b16, type: 3}
+  m_Name: Laser_Q_TrackingRange
+  m_EditorClassIdentifier: 
+  accessoryName: "\uB808\uC774\uC800 \uCD94\uC801\uBC94\uC704 \uAC15\uD654"
+  accessoryID: 17
+  compatibleWeapon: 2
+  slotType: 0
+  icon: {fileID: 2896845353126029944, guid: b29a87768aa654041982e759a0739128, type: 3}
+  description: "\uB808\uC774\uC800 \uCD94\uC801\uBC94\uC704 \uAC15\uD654\n- \uB808\uC774\uC800
+    \uCD94\uC801\uC758 \uD0D0\uC0C9 \uBC94\uC704\uAC00 25% \uC99D\uAC00\uD569\uB2C8\uB2E4.\n-
+    \uB354 \uBA40\uB9AC \uC788\uB294 \uC801\uB3C4 \uCD94\uC801\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  trackEnemyNumAdd: 0
+  trackingRangeMult: 1.25
+  buffDurationMult: 1

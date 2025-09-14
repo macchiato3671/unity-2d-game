@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950a8dd394b4dfc4e8782dcabd323fa9, type: 3}
+  m_Name: Throwing
+  m_EditorClassIdentifier: 
+  weaponID: 3
+  weaponName: "\uD22C\uCC99"
+  isget: 0
+  requiredResource: 25
+  description: "\uD22C\uCC99\n- \uCE7C\uC744 \uB358\uC838 \uC801\uC744 \uAD00\uD1B5\uC2DC\uD0A4\uBA70,
+    8.0m \uAC70\uB9AC\uAE4C\uC9C0 \uB0A0\uC544\uAC11\uB2C8\uB2E4.\n- \uC801\uC911
+    \uC2DC 10\uC758 \uD53C\uD574\uB97C \uC785\uD799\uB2C8\uB2E4.\n- \uB3D9\uC2DC\uC5D0
+    \uCD5C\uB300 4\uAC1C\uC758 \uCE7C\uC744 \uC0AC\uC6A9\uD560 \uC218 \uC788\uC73C\uBA70,\n 
+    \uBAA8\uB450 \uC18C\uBAA8 \uC2DC \uC2A4\uD0AC\uC744 \uC0AC\uC6A9\uD574 \uD68C\uC218\uD574\uC57C
+    \uB2E4\uC2DC \uC0AC\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n"
+  icon: {fileID: -1776099685487335438, guid: 54a2d7b5f780c6b489d037493dcf9947, type: 3}
+  type: 1
+  baseDamage: 10
+  attackSpeed: 0.2
+  qSkillData: {fileID: 11400000, guid: f389d59d47438a646a6fa2bfc7da6015, type: 2}
+  eSkillData: {fileID: 11400000, guid: d21237757db07ea47a2a0e77e4cb8e1f, type: 2}
+  accessoryData1: {fileID: 0}
+  accessoryData2: {fileID: 0}
+  attackSFX: {fileID: 8300000, guid: cf27e73ffb19a034b9fbd12034cc42a0, type: 3}
+  speed: 60
+  maxKnifeCount: 4
+  maxRange: 8

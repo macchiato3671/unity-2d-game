@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc194aea0d260f489ffb11780187809, type: 3}
+  m_Name: Suicide
+  m_EditorClassIdentifier: 
+  type: 4
+  skillName: Suicide
+  duration: 5
+  icon: {fileID: -4854596293885705242, guid: b21b2944afe8fdb4c8d4c828402febea, type: 3}
+  effect: {fileID: 4823280889094945748, guid: 158ab4c15744bcc46a613dd8421344dd, type: 3}
+  description: "\uC801 \uD55C \uBA85\uC744 \uC120\uD0DD\uD574 \uC790\uD3ED\uC2DC\uD0A8\uB2E4.
+    \uC8FC\uBCC0 \uC801\uB4E4\uB3C4 \uD3ED\uBC1C \uB370\uBBF8\uC9C0\uB97C \uC785\uB294\uB2E4."
+  requiredResource: 0
